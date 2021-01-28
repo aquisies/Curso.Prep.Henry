@@ -1,0 +1,5 @@
+prototype
+El prototype es una manera muy eficiente de especificar y controlar la creacion de funciones dentro de las clases
+
+Constructors (de Clases)
+Los constructores son el mecanismo que nos permite de cierta manera contruir una copia identica de una clase con las propiedades y funcionalidades que en  ella se especifican.

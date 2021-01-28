@@ -1,0 +1,16 @@
+Arrays
+Es un contenedor de almacenamiento que permite alojar con un solo nombre de variable diferentes datos, tomando el ejemplo inicial de los vasos, en lugar de tener que definir vaso1, vaso2, vaso3, este objeto me permitira de una manera mas practica y funcional definir un numero x de vasos controlados desde una sola variable.
+
+ejemplo:
+ vasos["cafe", "gaseosa", "cerveza", "agua",...., "te"]
+ 
+ para acceder a cada uno de los elementos podemos hacerlo a traves de un indice diseñado para ello, el indice define la posicion iniciando en la posicion 1 indice 0, posicion 2 indice 1, asi:
+
+indice-> 0          1          2        3           i 
+         |          |          |        |           |
+         V          V          V        V           V
+ vasos["cafe", "gaseosa", "cerveza", "agua",...., "te"]
+
+vasos[0] -> "cafe"
+vasos[1] -> "gaseosa"
+...

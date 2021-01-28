@@ -1,0 +1,21 @@
+Variables:
+En sistemas de computo son necesarias las variables para almacenar toda la informacion. 
+Un ejemplo de tres variables seria en la vida real como cuando tenemos tres bebidas de diferente sabor (ej: cafe, gaseosa, cerveza), para almacenarlos requerimos vasos etiquetados vaso1, vaso2, vaso3. Cada vaso estaria haciendo las veces de variables y sus etiquetas seria el nombre de las variables.
+En el lenguaje seria algo como:
+Ej: var vaso1, vaso2, vaso3;
+
+Strings
+Los String en un sistema computacional son cadenas de texto, es un tipo de datos para almacenar datos de tipo cadena, las cadenas en este lenguaje se expresan entre comillas dobles, o simple. Continuando con el ejemplo anterior, podriamos expresar algo como vaso1="Cafe", vaso2="gaseosa" vaso3="cerveza"
+
+Funciones (argumentos, return)
+Como su nombre lo indica son la que permite darle acción o funcionalidad a las aplicaciones que se desarrollan. Continuando con el ejemplo anterior podria ser consultar si esta lleno el vaso, en este caso particular con JavaScript seria algo como:
+
+function vasoLleno(vaso) { instrucciones validan y devuelven verdadero o falso }
+
+Declaraciones if
+Las palabra reservada if, permite basicamente controlando cual es la direccion que debe tomar la aplicacion bajo determinadas circunstancias, ejemplo si tenemos un vaso lleno de cafe, no podriamos hecharle mas cafe, por tanto debemos preguntar validar antes de continuar hechando cafe.
+
+    if (vasoLleno(vaso)){ instrucciones validan si se puede hechar o no se le  puede hechar mas al vaso}
+
+Valores booleanos (true, false)
+Los valores booleanos solo albergan dos posibles valores (verdadero o  falso), puende ser empleados en variables, funciones y por ejemplo en el control de flujo if del caso anterior en donde lo usamos para definir el flujo del programa a partir de la consulta realizada.

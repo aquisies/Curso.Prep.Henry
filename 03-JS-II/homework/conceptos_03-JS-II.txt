@@ -1,0 +1,11 @@
+for
+for es un bucle, y son esenciales para realizar poder poner a realizar tareas repetitivas al sistema de computo, imagina por un momento tener 100 vasos y a todos tener que etiquetarlos con la palabra cafe y un contador, es decir cafe1 cafe2 cafe3... cafe100, para ello nos hacemos a esta palabra resevada del sistema para dichos casos.
+su sintaxis seria algo como:
+i - es un contador que se movera entre 1 y 100
+for (let i = 1                 ; i <= 100                 ; i++          ) {
+// | Declaramos una variable | Expresión condcicional | Incrementamos la variable |
+    console.log('cafe' + i);  // cafe1 cafe2 cafe3... cafe100.
+}
+
+&&, ||, !
+Son operadores logicos y el resultado corresponde a la tablas de verdad Y que se representa como &&, en donde solo es verdad cuando las dos expresiones son verdaderas, la tabla de verdad del O que se representa como ||, en donde solo es falso cuando ambas expresiones son falsas  y por ultimo esta el simbolo (!)  el cual permite negar lo que preceda.

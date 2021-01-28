@@ -1,0 +1,48 @@
+Objetos
+Objetos es el contenedor mas abstracto que se pueda tener en los lenguajes de programacion como JavaScript, son super importantes y en ellos se puede simular, conceptualizar cualquier cosa que nos podamos imaginar, el puede albergar un conjunto de variables, arreglos, e incluso pueden proveer cierta funcionalidad.
+Los elementos que le dan forma al objeto incluye basicamente propiedades y metodos.
+
+ejemplo de declaracion de objeto:
+const Vaso = {};
+
+Propiedades
+las propiedades son elementos necesarios para darle forma al objeto, ellas nos permiten describir o caracterizar empleando el patron clave/valor, por ejemplo 
+
+const Vaso = {
+    contenido:'cafe',
+    material: 'Vidrio',
+    capacidad: 100,    
+    cantidadActual:50,
+};
+
+Métodos
+Le dan funcionalidad a los objetos, y pueden ser almacenadas en variables, en el ejemlo del vaso lo podriamos aplicar de la siguiente manera:
+
+const Vaso = {
+   contenido:'cafe',
+    material: 'Vidrio',
+    capacidad: 100, 
+    cantidadActual:50,
+
+    vasoLleno: function() {
+        if (this.capacidad>=this.cantidadActual){
+            return true;
+        }else{
+            return false;
+        }
+    }
+}
+ Vaso.vasoLleno() ; //false
+
+Bucle for…in
+
+Es empleado para iterar dentro de las propiedades de un objeto, permitiendo asi acceder a los valors que continenen internamente el componente.
+
+Notación de puntos vs notación de corchetes
+
+Para acceder a las propiedades y sus valores el interprete del sistema nos proporciona dos maneras de escribirlas, la notacion con puntos es usada normalmente para accerder de forma estatica a una propiedad determina
+ejemplo  
+        Vasos.contenido;  // asi se accede a la propiedad contenido del objeto Vasos. Se usa habitualmente cuando conocemos con antelacion que propiedad vamos a emplear
+
+        Vasos['contenido'] ; //arroja el mismo resultado de la propiedad punto, pero se usa para acceder mediante el programa de manera dinamica a la propiedad.
+
